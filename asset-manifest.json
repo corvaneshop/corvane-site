@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/corvane-site/static/css/main.56006f79.css",
-    "main.js": "/corvane-site/static/js/main.b9b142ee.js",
+    "main.css": "/corvane-site/static/css/main.d347fe1b.css",
+    "main.js": "/corvane-site/static/js/main.a27dff02.js",
     "static/media/whispers.png": "/corvane-site/static/media/whispers.73a4f505fb263ed4ad44.png",
     "static/media/hero-bg.png": "/corvane-site/static/media/hero-bg.5c4ec219c213a383c79b.png",
     "static/media/feast-of-silence.png": "/corvane-site/static/media/feast-of-silence.87839e25efcad7a6857c.png",
     "static/media/logo.png": "/corvane-site/static/media/logo.5a943ac3de668df73e86.png",
     "index.html": "/corvane-site/index.html",
-    "main.56006f79.css.map": "/corvane-site/static/css/main.56006f79.css.map",
-    "main.b9b142ee.js.map": "/corvane-site/static/js/main.b9b142ee.js.map"
+    "main.d347fe1b.css.map": "/corvane-site/static/css/main.d347fe1b.css.map",
+    "main.a27dff02.js.map": "/corvane-site/static/js/main.a27dff02.js.map"
   },
   "entrypoints": [
-    "static/css/main.56006f79.css",
-    "static/js/main.b9b142ee.js"
+    "static/css/main.d347fe1b.css",
+    "static/js/main.a27dff02.js"
   ]
 }

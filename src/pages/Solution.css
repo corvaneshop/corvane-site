@@ -1,0 +1,133 @@
+.solution-page {
+    background: #0e0e0e;
+    color: #c7c7c7;
+    min-height: 100vh;
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.solution-container {
+    max-width: 700px;
+    width: 100%;
+    padding: 40px;
+}
+
+.solution-container h1 {
+    font-family: "Playfair Display", serif;
+    color: #7c3aed;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.case-desc {
+    font-size: 16px;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.solution-image img {
+    width: 100%;
+    border-radius: 10px;
+    filter: brightness(80%);
+    margin-bottom: 30px;
+}
+
+.solution-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.solution-form label {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+.solution-form input {
+    width: 80%;
+    padding: 12px 16px;
+    border-radius: 6px;
+    border: none;
+    background: #1a1a1a;
+    color: white;
+    font-size: 16px;
+}
+
+.solution-form input:focus {
+    outline: 2px solid #7c3aed;
+}
+
+.solution-form button {
+    background: #7c3aed;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.solution-form button:hover {
+    background: #5b21b6;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.correct {
+    color: #4ade80;
+    /* yeşil */
+}
+
+.wrong {
+    color: #ef4444;
+    /* kırmızı */
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 40px;
+    color: #7c3aed;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    color: #9f67ff;
+}
+
+.case-solution {
+    background: #141414;
+    border: 1px solid rgba(124, 58, 237, 0.3);
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: left;
+    color: #c7c7c7;
+}
+
+.case-solution h2 {
+    color: #4ade80;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 20px;
+}
+
+.case-solution h3 {
+    color: #7c3aed;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.case-solution ul {
+    list-style: square;
+    padding-left: 20px;
+    color: #bcbcbc;
+}

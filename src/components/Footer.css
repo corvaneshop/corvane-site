@@ -1,0 +1,22 @@
+.footer {
+  background: #0e0e0e;
+  color: #c7c7c7;
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+.footer p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.socials a {
+  margin: 0 12px;
+  color: #7c3aed;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #9f67ff;
+}

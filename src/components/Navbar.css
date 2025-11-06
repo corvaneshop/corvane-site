@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: rgba(14, 14, 14, 0.9);
+  backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid rgba(124, 58, 237, 0.3);
+}
+
+/* 🔹 Logo alanı */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* 🔹 Menü */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.nav-links a {
+  color: #c7c7c7;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #7c3aed;
+}

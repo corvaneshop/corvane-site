@@ -1,0 +1,48 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0e0e0e;
+  min-height: 100vh;
+  padding-top: 100px; /* navbar boşluğu */
+}
+
+/* Intro Section */
+.intro-text {
+  text-align: center;
+  max-width: 800px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  padding: 0 20px;
+}
+
+.intro-text h2 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #c7c7c7;
+  margin-bottom: 40px;
+}
+
+.explore-btn {
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.explore-btn:hover {
+  background-color: #5b21b6;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting to Corvane Case Files...</title>
+    <meta http-equiv="refresh" content="3; url=/corvane-site/" />
+
+    <style>
+        body {
+            background-color: #0e0e0e;
+            color: #c7c7c7;
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        .logo {
+            font-family: "Playfair Display", serif;
+            font-size: 38px;
+            letter-spacing: 4px;
+            color: #7c3aed;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #aaa;
+            max-width: 300px;
+        }
+
+        .loading-dots::after {
+            content: "";
+            animation: dots 1.5s steps(5, end) infinite;
+        }
+
+        @keyframes dots {
+
+            0%,
+            20% {
+                content: "";
+            }
+
+            40% {
+                content: ".";
+            }
+
+            60% {
+                content: "..";
+            }
+
+            80%,
+            100% {
+                content: "...";
+            }
+        }
+
+        .spinner {
+            width: 32px;
+            height: 32px;
+            border: 3px solid rgba(255, 255, 255, 0.2);
+            border-top: 3px solid #7c3aed;
+            border-radius: 50%;
+            animation: spin 1.2s linear infinite;
+            margin-top: 20px;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+    <script>
+        // Fallback redirect (in case meta refresh fails)
+        setTimeout(() => {
+            window.location.href = "/corvane-site/";
+        }, 3000);
+    </script>
+</head>
+
+<body>
+    <div class="logo">CORVANE</div>
+    <h2>Redirecting to Case Files<span class="loading-dots"></span></h2>
+    <p>If this page doesn’t redirect automatically, <a href="/corvane-site/" style="color:#7c3aed;">click here</a>.</p>
+    <div class="spinner"></div>
+</body>
+
+</html>

@@ -8,27 +8,29 @@ const gamesData = [
         title: "Whispers in the Conservatory",
         image: whispersImg,
         description:
-            "A haunting mystery set in a secluded conservatory where music and obsession intertwine. Clara Benedict’s final melody hides the truth of her demise — and only a keen mind can unveil the name written between the notes.",
+            "A haunting locked-room mystery set in Hollow Creek Conservatory, where music, rivalry, and obsession compose a deadly symphony. Clara Venedict’s final sonata was never meant to end — but someone ensured the silence would last forever.",
         caseDetails: {
             setting: "Hollow Creek Conservatory",
-            victim: "Clara Benedict",
+            victim: "Clara Venedict",
             summary:
-                "Clara Benedict, a gifted pianist, was found lifeless beside the grand piano after her final recital. The room was locked from within, and only the faint echo of a haunting melody remained.",
+                "Renowned violinist Clara Venedict was found dead inside the practice room of Hollow Creek Conservatory. The door was locked from the inside, and the only open exit — a west-facing window — revealed faint muddy footprints leading outward. Her hand clutched a torn sheet of music marked with strange symbols.",
             clues: [
-                "A torn diary page mentioning 'admiration turned dangerous'.",
-                "A music sheet annotated in unfamiliar handwriting.",
-                "A missing key from the piano bench lock.",
-                "Fingerprints found on Clara’s journal cover.",
-            ],
+                "An audio recording ending with Clara whispering 'Del—' before the impact.",
+                "A deleted 7:53 P.M. call log made after the estimated time of death.",
+                "A baton handle trace found to contain mixed DNA residue.",
+                "A partially recovered message from Sebastian: 'No one will hear a note out of place again.'"
+            ]
         },
         question:
-            "Who was responsible for Clara Benedict’s death, driven by obsession and unrequited admiration?",
-        answer: "Oliver Trane",
+            "Was Oliver Del-Trane truly responsible for Clara’s death — or was he framed by someone determined to silence the final sonata?",
+        answer:
+            "The evidence points toward Sebastian Mahr, the orchestra’s conductor, though the deleted call and conflicting forensic reports leave the case officially unresolved.",
         hint:
-            "Pay attention to the diary entry and the music sheet annotations — admiration can turn into something darker.",
+            "Focus on the timeline — the 7:53 call occurs after Clara’s death. Who still had access to the conservatory then?",
         motive:
-            "Oliver Trane’s admiration for Clara Benedict evolved into an unhealthy obsession. When she discovered his invasion of her privacy and threatened to expose him, he acted out of desperation, believing that if she wouldn’t acknowledge him in life, she would in death.",
-    }, {
+            "Sebastian Mahr feared Clara’s new composition would expose him — she planned to reveal his plagiarism in 'The Final Sonata.' When words failed, he chose silence. Yet he staged the scene to implicate Oliver, leaving investigators questioning every note of truth."
+    },
+    {
         id: "the-feast-of-silence",
         title: "The Feast of Silence",
         image: feastOfSilenceImg,

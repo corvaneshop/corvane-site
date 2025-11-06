@@ -24,7 +24,7 @@ const gamesData = [
         question:
             "Was Oliver Del-Trane truly responsible for Clara’s death — or was he framed by someone determined to silence the final sonata?",
         answer:
-            "The evidence points toward Sebastian Mahr, the orchestra’s conductor, though the deleted call and conflicting forensic reports leave the case officially unresolved.",
+            "Sebastian Mahr",
         hint:
             "Focus on the timeline — the 7:53 call occurs after Clara’s death. Who still had access to the conservatory then?",
         motive:

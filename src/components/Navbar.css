@@ -45,25 +45,48 @@
   color: #7c3aed;
 }
 
-
 /* 🔹 TABLET */
 @media (max-width: 1024px) {
   .navbar {
-    padding: 0 30px;
+    padding: 15px 30px;
+  }
+
+  .nav-links {
+    gap: 25px;
+  }
+
+  .nav-logo-img {
+    height: 80px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
   }
 }
 
 /* 🔹 MOBIL */
 @media (max-width: 768px) {
-  .nav-links {
-    display: none;
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
   }
 
-  .navbar {
-    justify-content: center;
+  .nav-left {
+    margin-bottom: 10px;
   }
 
   .nav-logo-img {
-    width: 140px;
+    height: 70px;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .nav-links a {
+    font-size: 12px;
+    letter-spacing: 0.5px;
   }
 }

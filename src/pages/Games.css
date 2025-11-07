@@ -105,18 +105,26 @@
     .games-grid {
         grid-template-columns: 1fr;
         padding: 0 20px;
+        gap: 25px;
     }
 
     .game-card img {
         height: 260px;
     }
 
-    .game-overlay h2 {
-        font-size: 18px;
+    .game-overlay {
+        padding: 20px;
+        background: linear-gradient(to top, rgba(14, 14, 14, 0.8), transparent);
     }
 
+    .game-overlay h2 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    /* 🔹 Açıklama mobilde gizlenir */
     .game-overlay p {
-        font-size: 13px;
+        display: none;
     }
 
     .play-btn {

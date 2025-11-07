@@ -62,3 +62,7 @@
     font-size: 0.9rem;
     letter-spacing: 0.5px;
 }
+/* Navbar yüksekliği kadar boşluk bırak */
+.about-page {
+  padding-top: 140px; /* sabit navbar'ı telafi eder */
+}

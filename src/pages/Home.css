@@ -4,7 +4,8 @@
   align-items: center;
   background-color: #0e0e0e;
   min-height: 100vh;
-  padding-top: 100px; /* navbar boşluğu */
+  padding-top: 100px;
+  /* navbar boşluğu */
 }
 
 /* Intro Section */
@@ -45,4 +46,34 @@
 .explore-btn:hover {
   background-color: #5b21b6;
   transform: translateY(-2px);
+}
+
+@media (max-width: 1024px) {
+  .intro-text h2 {
+    font-size: 30px;
+  }
+
+  .intro-text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+
+  .intro-text h2 {
+    font-size: 26px;
+  }
+
+  .intro-text p {
+    font-size: 15px;
+  }
+
+  .explore-btn {
+    padding: 10px 26px;
+    font-size: 15px;
+  }
 }

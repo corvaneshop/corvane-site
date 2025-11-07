@@ -44,3 +44,26 @@
 .nav-links a.active {
   color: #7c3aed;
 }
+
+
+/* 🔹 TABLET */
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 0 30px;
+  }
+}
+
+/* 🔹 MOBIL */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
+  }
+
+  .nav-logo-img {
+    width: 140px;
+  }
+}

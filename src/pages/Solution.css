@@ -145,3 +145,44 @@
 .solution-select:focus {
     outline: 2px solid #7c3aed;
 }
+
+@media (max-width: 1024px) {
+    .solution-container {
+        padding: 30px;
+    }
+
+    .solution-container h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .solution-page {
+        padding-top: 100px;
+    }
+
+    .solution-container {
+        padding: 20px;
+    }
+
+    .solution-form input,
+    .solution-select {
+        width: 100%;
+    }
+
+    .solution-form button {
+        width: 100%;
+    }
+
+    .case-solution {
+        padding: 25px;
+    }
+
+    .case-solution h2 {
+        font-size: 20px;
+    }
+
+    .case-solution h3 {
+        font-size: 16px;
+    }
+}

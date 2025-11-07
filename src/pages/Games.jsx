@@ -15,7 +15,7 @@ const Games = () => {
                             <h2>{game.title}</h2>
                             <p>{game.description}</p>
                             <Link to={`/solutions/${game.id}`} className="play-btn">
-                                Open File
+                                Check Your Solution
                             </Link>
                         </div>
                     </div>

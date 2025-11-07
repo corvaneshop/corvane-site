@@ -40,15 +40,33 @@ const Solution = () => {
         {/* ✅ Soru Alanı */}
         {status !== "correct" && (
           <form onSubmit={handleSubmit} className="solution-form">
-            <label>{game.question}</label>
-            <input
-              type="text"
-              placeholder="Type your answer..."
-              value={answer}
-              onChange={(e) => setAnswer(e.target.value)}
-            />
+            <label>{game.prompt || game.question}</label>
+
+            {game.type === "choice" && game.options ? (
+              <select
+                value={answer}
+                onChange={(e) => setAnswer(e.target.value)}
+                className="solution-select"
+              >
+                <option value="">Select your theory...</option>
+                {game.options.map((opt, index) => (
+                  <option key={index} value={opt}>
+                    {opt}
+                  </option>
+                ))}
+              </select>
+            ) : (
+              <input
+                type="text"
+                placeholder="Type your answer..."
+                value={answer}
+                onChange={(e) => setAnswer(e.target.value)}
+              />
+            )}
+
             <button type="submit">Check Solution</button>
           </form>
+
         )}
 
         {/* ⚠️ Yanlış cevap */}
